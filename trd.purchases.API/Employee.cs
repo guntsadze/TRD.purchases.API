@@ -19,5 +19,8 @@ namespace trd.purchases.API.Models
 
         [Required]
         public Guid DepartmentId { get; set; }
+
+        [RegularExpression("^[0-9]*$")] // Ensure PersonalNumber consists of numbers only
+        public string PersonalNumber { get; set; }
     }
 }

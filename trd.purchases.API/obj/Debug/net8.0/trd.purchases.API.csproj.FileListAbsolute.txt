@@ -68,3 +68,4 @@ C:\Users\DimitriGuntsadze\Development\TRD\trd.purchases.API\trd.purchases.API\ob
 C:\Users\DimitriGuntsadze\Development\TRD\trd.purchases.API\trd.purchases.API\obj\Debug\net8.0\trd.purchases.API.pdb
 C:\Users\DimitriGuntsadze\Development\TRD\trd.purchases.API\trd.purchases.API\obj\Debug\net8.0\trd.purchases.API.genruntimeconfig.cache
 C:\Users\DimitriGuntsadze\Development\TRD\trd.purchases.API\trd.purchases.API\obj\Debug\net8.0\ref\trd.purchases.API.dll
+C:\Users\DimitriGuntsadze\Development\TRD\trd.purchases.API\trd.purchases.API\obj\Debug\net8.0\trd.purchases.API.sourcelink.json

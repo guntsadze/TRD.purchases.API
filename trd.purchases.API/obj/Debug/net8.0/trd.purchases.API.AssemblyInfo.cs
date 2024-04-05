@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("trd.purchases.API")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4aab710e82415bb849b9a5d84009b451ad27db66")]
 [assembly: System.Reflection.AssemblyProductAttribute("trd.purchases.API")]
 [assembly: System.Reflection.AssemblyTitleAttribute("trd.purchases.API")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

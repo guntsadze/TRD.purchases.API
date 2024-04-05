@@ -50,6 +50,13 @@ namespace trd.purchases.API.Controllers
                 return BadRequest();
             }
 
+            // Ensure PersonalNumber consists of numbers only
+            if (!string.IsNullOrEmpty(employee.PersonalNumber) && !System.Text.RegularExpressions.Regex.IsMatch(employee.PersonalNumber, "^[0-9]*$"))
+            {
+                ModelState.AddModelError(nameof(employee.PersonalNumber), "PersonalNumber must consist of numbers only.");
+                return BadRequest(ModelState);
+            }
+
             _context.Entry(employee).State = EntityState.Modified;
 
             try
@@ -75,6 +82,13 @@ namespace trd.purchases.API.Controllers
         [HttpPost]
         public async Task<ActionResult<Employee>> PostEmployee(Employee employee)
         {
+            // Ensure PersonalNumber consists of numbers only
+            if (!string.IsNullOrEmpty(employee.PersonalNumber) && !System.Text.RegularExpressions.Regex.IsMatch(employee.PersonalNumber, "^[0-9]*$"))
+            {
+                ModelState.AddModelError(nameof(employee.PersonalNumber), "PersonalNumber must consist of numbers only.");
+                return BadRequest(ModelState);
+            }
+
             _context.Employees.Add(employee);
             await _context.SaveChangesAsync();
 
